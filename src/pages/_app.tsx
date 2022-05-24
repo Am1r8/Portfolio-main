@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import '../styles/global.css';
 import Head from 'next/head';

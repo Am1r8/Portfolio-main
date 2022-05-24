@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import * as bin from './bin';
 
 export const handleTabCompletion = (

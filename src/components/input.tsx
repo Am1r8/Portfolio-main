@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { commandExists } from '../utils/commandExists';
 import { shell } from '../utils/shell';

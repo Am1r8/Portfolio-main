@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { History as HistoryInterface } from './interface';
 import { Ps1 } from '../Ps1';
