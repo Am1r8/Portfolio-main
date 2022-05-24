@@ -6,17 +6,14 @@
     "social": {
         "github": "CoachAlpha",
         "linkedin": "amir-soleimanian-66490420a",
-        "twitter": "Unknown_830"
+        "twitter": "Unknown_830",
+        "instagram": "am1r__8"
     },
-    "email": "contact@email.com",
-    "ps1_hostname": "liveterm",
+    "email": "amirhoseinsoleimanian2005@gmail.com",
+    "ps1_hostname": "Am1r",
     "ps1_username": "visitor",
-    "repo": "https://github.com/Cveinnt/LiveTerm",
+    "repo": "https://github.com/CoachAlpha",
     "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-    "donate_urls": {
-        "paypal": "https://paypal.me/cveinnt",
-        "patreon": "https://patreon.com/cveinnt"
-    },
     "colors": {
         "light": {
             "background": "#FBF1C9",

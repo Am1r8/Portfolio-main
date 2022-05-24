@@ -34,9 +34,9 @@ export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
 More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+sumfetch - short summary.
+resume - my latest resume.
+readme - my github readme.`;
 };
 
 export const resume = async (args: string[]): Promise<string> => {
@@ -63,6 +63,12 @@ export const github = async (args: string[]): Promise<string> => {
   window.open(`https://github.com/${config.social.github}/`);
 
   return 'Opening github...';
+};
+
+export const instagram = async (args: string[]): Promise<string> => {
+  window.open(`https://www.instagram.com/${config.social.instagram}/`);
+
+  return 'Opening instagram...';
 };
 
 export const linkedin = async (args: string[]): Promise<string> => {
