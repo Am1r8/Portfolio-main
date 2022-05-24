@@ -17,9 +17,9 @@ export const help = async (args: string[]): Promise<string> => {
   }
   return `Welcome! Here are all the available commands:
 \n${c}\n
-[tab]: trigger completion.
-[ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
+[tab]: Autocomplete.
+[ctrl+l]/clear/cls: clear the shell.\n
+Type 'summary' to display summary.
 `;
 };
 
@@ -34,7 +34,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
 More about me:
-sumfetch - short summary.
+summary.
 resume - my latest resume.
 readme - my github readme.`;
 };
@@ -161,7 +161,7 @@ export const banner = (args?: string[]): string => {
 #     # #     # ##### #     # 
 
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
+Type 'summary' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
