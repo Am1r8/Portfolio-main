@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
     font-family: 'Hack';
-    src: url(/assets/fonts/Hack-NF.ttf);
+    src: url(/assets/Hack-NF.ttf);
     display: swap;
 }
 
