@@ -23,7 +23,7 @@ export const quote = async (args: string[]): Promise<string> => {
 
 export const readme = async (args: string[]): Promise<string> => {
   const readme = await getReadme();
-  return `Opening GitHub README...\n
+  return `Opening GitHub README ...\n
   ${readme}`;
 };
 
