@@ -28,14 +28,15 @@ export const repo = async (args: string[]): Promise<string> => {
 };
 
 export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-For more about me write:
-summary.
-resume - my latest resume.
-readme - my github readme.`;
+  return `Hello, My name is Amirhosein Soleimanian, but most people just call me Amir.
+I've been programming since I was six years old, and I'm a full-stack developer.
+Python is my primary language, although I've also worked with Javascript, C, C++, Java, Dart, and assembly.
+I wish to advance as a senior developer in the tech industry.
+My Github, which you can browse by typing "Github," contains all of the projects I've created because I enjoy working with computers.
+Thank you for reading, and I hope you know more about me.
+`;
 };
-
+// Hi, I am ${config.name}. 
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume ...';
@@ -142,19 +143,19 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: You got rick rolled. LOL`;
 };
 
-export const banner = (args?: string[]): string => {
-  return `
+// export const banner = (args?: string[]): string => {
+//   return `
 
-     #      #     #     #     ###### 
-   #   #    ##   ##    ##     #     # 
-  #     #   # # # #   # #     #     # 
-  #     #   #  #  #     #     ######  
-  #######   #     #     #     #   #   
-  #     #   #     #     #     #    #  
-  #     #   #     #   #####   #     # 
+//      #      #     #     #     ###### 
+//    #   #    ##   ##    ##     #     # 
+//   #     #   # # # #   # #     #     # 
+//   #     #   #  #  #     #     ######  
+//   #######   #     #     #     #   #   
+//   #     #   #     #     #     #    #  
+//   #     #   #     #   #####   #     # 
 
-Type 'help' to see the list of available commands.
-Type 'summary' to display summary.
-Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
-`;
-};
+// Type 'help' to see the list of available commands.
+// Type 'summary' to display summary.
+// Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
+// `;
+// };
