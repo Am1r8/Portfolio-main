@@ -145,13 +145,13 @@ export const sudo = async (args?: string[]): Promise<string> => {
 export const banner = (args?: string[]): string => {
   return `
 
-    #    #     #   #   ######  
-    # #   ##   ##  ##   #     # 
-  #   #  # # # # # #   #     # 
-  #     # #  #  #   #   ######  
-  ####### #     #   #   #   #   
-  #     # #     #   #   #    #  
-  #     # #     # ##### #     # 
+     #      #     #     #     ###### 
+   #   #    ##   ##    ##     #     # 
+  #     #   # # # #   # #     #     # 
+  #     #   #  #  #     #     ######  
+  #######   #     #     #     #   #   
+  #     #   #     #     #     #    #  
+  #     #   #     #   #####   #     # 
 
 Type 'help' to see the list of available commands.
 Type 'summary' to display summary.
