@@ -27,10 +27,10 @@ export const repo = async (args: string[]): Promise<string> => {
   return 'Opening Github repository ...';
 };
 
-export const portfolio = async (args: string[]): Promise<string> => {
-  window.open(`${config.portfolio}`);
-  return 'Opening Portfolio ...';
-};
+// export const portfolio = async (args: string[]): Promise<string> => {
+//   window.open(`${config.portfolio}`);
+//   return 'Opening Portfolio ...';
+// };
 
 export const about = async (args: string[]): Promise<string> => {
   return `Hello, My name is Amirhosein Soleimanian, but most people just call me Amir.
