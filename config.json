@@ -17,6 +17,15 @@
     "readme_url": "https://github.com/Am1r8/Am1r8#readme",
     "portfolio": "",
     "colors": {
+        "light": {
+            "background": "#282936",
+            "foreground": "#E9E9F4",
+            "yellow": "#00F769",
+            "green": "#EBFF87",
+            "gray": "#F7F7FB",
+            "blue": "#62D6E8",
+            "red": "#EA51B2"
+        },
         "dark": {
             "background": "#282936",
             "foreground": "#E9E9F4",
