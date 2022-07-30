@@ -9,6 +9,8 @@ const NotFoundPage = () => {
     router.replace('/');
   });
 
+  
+
   return null;
 };
 
